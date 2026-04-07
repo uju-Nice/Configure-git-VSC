@@ -76,4 +76,10 @@ Deleting files and Branches ​
   git branch –M main/master     -------    Switches from main branch to master branch and vice versa​
 
 
-
+Daily task command 
+git checkout -b <featureBranchName>
+git status 
+git add fileName(s)
+git commit -m "message"
+git push -u origin <featureBranchName>  ..... do this only once in the repo 
+git push  ......... going forward until you are no longer working with the repo
